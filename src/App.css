@@ -3,16 +3,25 @@
     margin: 0;
 }
 .contenidoApp{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .contentCenter{
-    width: 100%;
     height:80vh;
-    background-color:chocolate;
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+.contentCenter h1{
+    text-align: center;
+}
+.totalEliminar{
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction:row;
+    justify-content: space-around;
 }
